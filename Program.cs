@@ -1,4 +1,6 @@
-﻿using Leetcode.Arrays_and_Hashing.List;
+﻿using Leetcode.Arrays_and_Hashing.Array;
+using Leetcode.Arrays_and_Hashing.Dictionary;
+using Leetcode.Arrays_and_Hashing.List;
 using Leetcode.Arrays_and_Hashing.String;
 using Leetcode.Hashmap;
 using System;
@@ -13,10 +15,15 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            var item = new _58_length_of_last_word();
+            var item = new _238_product_of_array_except_self();
+            int[] nums = {1, 2, 3, 4};
+            //string[] wordList = { "eat", "tea", "tan", "ate", "nat", "bat" };
+            var res = item.ProductExceptSelf(nums);
 
-            var res = item.LengthOfLastWord("Hello World");
             Console.WriteLine(res);
         }
     }
 }
+
+// Good strategy
+// _347_top_k_frequent_element

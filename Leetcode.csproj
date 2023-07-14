@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays and Hashing\Array\238_product_of_array_except_self.cs" />
+    <Compile Include="Arrays and Hashing\Dictionary\1_two_sum.cs" />
     <Compile Include="Arrays and Hashing\Dictionary\201_contains_duplicate.cs" />
     <Compile Include="Arrays and Hashing\Array\1929_concatenation_of_arrays.cs" />
+    <Compile Include="Arrays and Hashing\Dictionary\347_top_k_frequent_element.cs" />
+    <Compile Include="Arrays and Hashing\Dictionary\49_group_anagrams.cs" />
+    <Compile Include="Arrays and Hashing\Dictionary\PriorityQueue.cs" />
     <Compile Include="Arrays and Hashing\String\242_valid_anagram.cs" />
     <Compile Include="Arrays and Hashing\String\293_is_sequence.cs" />
     <Compile Include="Arrays and Hashing\String\58_length_of_last_word.cs" />
@@ -53,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Arrays and Hashing\List\" />
